@@ -217,7 +217,7 @@ aws s3 rm s3://your-bucket-name/your-file.html
 
 rm = remove
 
-Examples
+Examples;
 
 aws s3 rm s3://mym4ace-bucket202/your-file.html
 
