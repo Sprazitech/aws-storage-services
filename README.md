@@ -2,7 +2,9 @@
 
 **1. Create an S3 bucket and upload, retrieve, and delete objects using the Management Console.**
 
+
 **1. Create an S3 Bucket**
+
 
 ii. Sign in to your AWS Management Console.
 
@@ -21,6 +23,7 @@ viii. Scroll down and click "Create bucket"
 
 **2. Upload an Object (like a file)**
 
+
 i. Open your bucket by clicking on its name.
 
 ii. Click "Upload" → "Add files".
@@ -34,12 +37,14 @@ Your file is now inside your bucket
 
 **3. Retrieve (Download) an Object**
 
+
 i. Go inside the bucket and click on the object (file) name.
 
 ii. Click "Download" to save it back to your computer.
 
 
 **4. Delete an Object**
+
 
 i. Inside the bucket, select the checkbox next to the object.
 
@@ -51,11 +56,12 @@ iii. Confirm the deletion.
 **2. Configure S3 bucket permissions to make objects public.**
 
 
-**To grant bucket permissions to make obects public**
+To grant bucket permissions to make obects public.
 
 i. Go to the AWS S3 Console.
 
 ii. Click the bucket name you want to make objects public in.
+
 
 **Disable "Block All Public Access"**
 
@@ -77,7 +83,9 @@ Acknowledge the warning by checking the box.
 
 vii. Click Save changes.
 
+
  **Add a Bucket Policy (to make objects public)**
+ 
 
 vii. Still under the Permissions tab, scroll to Bucket Policy.
 
@@ -107,7 +115,9 @@ xi. Click Save changes.
 
 I got my HTML files to host on the website on the S3 bucket from Chidimma, A collegue from Frontend mentee.
 
+
 **To Configure Bucket for Static Website Hosting.**
+
 
 i. Inside the bucket, click Properties tab.
 
@@ -131,6 +141,7 @@ Boom! website is live.
 
 
 **4. Use AWS CLI to manage S3 buckets and objects.**
+
 
 **Set Up AWS CLI First**
 
@@ -158,6 +169,7 @@ vi. Output format (e.g., json or text)
 
 After all done, your computer can talk to AWS.
 
+
 **Managing S3 Buckets and Objects via CLI**
 
 
@@ -171,11 +183,13 @@ Example;
 
 aws s3 mb s3://mym4ace-bucket202
 
+
 **II. List All Buckets using the command**
 
 aws s3 ls
 
 This shows all the buckets you have.
+
 
 **iii. Upload a File to S3 using the command**
 
@@ -187,6 +201,7 @@ aws s3 cp index.html s3://mym4ace-bucket202/
 
 Files is uploaded.
 
+
 **iv.Download (Retrieve) a File from S3 using the command;**
 
 aws s3 cp s3://your-bucket-name/your-file.html your-local-folder/
@@ -194,6 +209,7 @@ aws s3 cp s3://your-bucket-name/your-file.html your-local-folder/
 Example;
 
 aws s3 cp s3://mym4ace-bucket202/index.html Downloads/
+
 
 **v. Delete an Object (File) using the command;**
 
@@ -206,6 +222,7 @@ Examples
 aws s3 rm s3://mym4ace-bucket202/your-file.html
 
 The file is deleted.
+
 
 **v. Delete a Bucket (only if it's empty) using the command;**
 
