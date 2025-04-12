@@ -21,7 +21,7 @@ vii. Leave other settings default for now (you can uncheck "Block all public acc
 viii. Scroll down and click "Create bucket"
 
 
-![Task](photos/tasks1_1.jpg)
+![Task](photos/tasks1_1.JPG)
 
 
 **2. Upload an Object (like a file)**
