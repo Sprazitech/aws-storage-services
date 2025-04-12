@@ -205,6 +205,7 @@ After all done, your computer can talk to AWS.
 
 ![Task](photos/tasks1_3.JPG)
 
+**NOTE: DON'T EVER DISPLAY YOUR AWS SECRET ACCESS KEY ON A PUPLIC DOMAIN e.g GITHUB. THIS IS JUST FOR A DEMO.**
 
 **Managing S3 Buckets and Objects via CLI**
 
