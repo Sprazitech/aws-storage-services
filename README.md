@@ -39,7 +39,7 @@ Your file is now inside your bucket
 
 
 
-![Task](photos/tasks2_1.jpg)
+![Task](photos/tasks2_1.JPG)
 
 
 **3. Retrieve (Download) an Object**
@@ -51,7 +51,7 @@ ii. Click "Download" to save it back to your computer.
 
 
 
-![Task](photos/tasks3_1.jpg)
+![Task](photos/tasks3_1.JPG)
 
 
 **4. Delete an Object**
@@ -65,7 +65,7 @@ iii. Confirm the deletion.
 
 
 
-![Task](photos/tasks4_1.jpg)
+![Task](photos/tasks4_1.JPG)
 
 
 **2. Configure S3 bucket permissions to make objects public.**
@@ -100,7 +100,7 @@ vii. Click Save changes.
 
 
 
-![Task](photos/tasks1_2.jpg)
+![Task](photos/tasks1_2.JPG)
 
 
  **Add a Bucket Policy (to make objects public)**
@@ -131,7 +131,7 @@ xi. Click Save changes.
 
 
 
-![Task](photos/tasks2_2.jpg)
+![Task](photos/tasks2_2.JPG)
 
 
 **3. Collect HTML files from the frontend mentees and host them as a website on the S3 bucket.**
@@ -164,11 +164,11 @@ Boom! website is live.
 
 
 
-![Task](photos/tasks1_static_1.jpg)
+![Task](photos/tasks1_static_1.JPG)
 
 
 
-![Task](photos/task1_static_2.jpg)
+![Task](photos/task1_static_2.JPG)
 
 
 
@@ -203,7 +203,7 @@ After all done, your computer can talk to AWS.
 
 
 
-![Task](photos/tasks1_3.jpg)
+![Task](photos/tasks1_3.JPG)
 
 
 **Managing S3 Buckets and Objects via CLI**
@@ -221,7 +221,7 @@ aws s3 mb s3://mym4ace-bucket002
 
 
 
-![Task](photos/tasks1_1.jpg)
+![Task](photos/tasks1_1.JPG)
 
 
 **II. List All Buckets using the command**
@@ -230,7 +230,7 @@ aws s3 ls
 
 
 
-![Task](photos/task1_upload_33.jpg)
+![Task](photos/task1_upload_33.JPG)
 
 This shows all the buckets you have.
 
@@ -246,7 +246,7 @@ aws s3 cp index.html s3://mym4ace-bucket002/
 
 
 
-![Task](photos/task1_upload_3.jpg)
+![Task](photos/task1_upload_3.JPG)
 
 Files is uploaded.
 
@@ -261,7 +261,7 @@ aws s3 cp s3://mym4ace-bucket002/index.html Downloads/
 
 
 
-![Task](photos/task1_upload_31.jpg)
+![Task](photos/task1_upload_31.JPG)
 
 
 
@@ -277,7 +277,7 @@ aws s3 rm s3://mym4ace-bucket002/your-file.html
 
 
 
-![Task](photos/task1_upload_35.jpg)
+![Task](photos/task1_upload_35.JPG)
 
 
 The file is deleted.
@@ -295,11 +295,11 @@ aws s3 rb s3://mym4ace-bucket002
 
 
 
-![Task](photos/task1_upolad_1.jpg)
+![Task](photos/task1_upolad_1.JPG)
 
 
 
-![Task](photos/task1_upload_36.jpg)
+![Task](photos/task1_upload_36.JPG)
 
 
 ###### where are you
