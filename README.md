@@ -20,6 +20,8 @@ vii. Leave other settings default for now (you can uncheck "Block all public acc
 
 viii. Scroll down and click "Create bucket"
 
+![Image](https://github.com/user-attachments/assets/3ddc702b-d6ed-4921-a28f-f81b4e8cde6f)
+
 
 
 ![Task](photos/tasks1_1.jpg)
