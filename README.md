@@ -300,7 +300,7 @@ aws s3 rb s3://mym4ace-bucket002
 
 
 
-![Task 17](photos/task_upload_36.jpg)
+![Task 18](photos/task_upload_36.jpg)
 
 
 
